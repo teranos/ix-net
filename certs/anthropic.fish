@@ -11,7 +11,7 @@
 #   leaf.pem        — Leaf certificate (signed by CA)
 #
 # Usage:
-#   cd qntx-plugins/ix-net/certs && fish anthropic.fish
+#   cd certs && fish anthropic.fish
 
 set DIR (cd (dirname (status filename)); and pwd)
 cd $DIR
